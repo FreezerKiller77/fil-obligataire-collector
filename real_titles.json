@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+    "feed_file": "FEDMP.xml"
+  },
+  {
+    "title": "The science and practice of monetary policy communication - the European Central Bank experience",
+    "url": "https://www.bis.org/speeches/20261112-science-and-practice-monetary-policy-communication-european-central-bank-experience",
+    "feed_file": "BRICB.xml"
+  },
+  {
+    "title": "La grande interview BFM la tribune du jeudi 12 novembre",
+    "url": "https://www.bfmtv.com/economie/replay-emissions/la-grande-interview-bfm-la-tribune/la-grande-interview-bfm-la-tribune-du-jeudi-12-novembre_EN-202611120820.html",
+    "feed_file": "BFMEC.xml"
+  },
+  {
+    "title": "Jensen Huang resigns as Nvidia chief executive",
+    "url": "https://www.ft.com/content/b4a0f3d9-f075-47ea-9a85-77cdade9a06f?syn-25a6b1a6=1",
+    "feed_file": "FTNEW.xml"
+  },
+  {
+    "title": "2026-11-05 - Martin Schlegel: Transmission and conduct of monetary policy in Switzerland",
+    "url": "https://www.snb.ch/en/publications/communication/speeches/2026/ref_20261105_msl",
+    "feed_file": "BNSSP.xml"
+  },
+  {
+    "title": "EU Inc : pourquoi le statut unifié des entreprises européennes n’est pas pour tout de suite",
+    "url": "https://www.latribune.fr/article/tech/1389787768620414/eu-inc-pourquoi-le-statut-unifie-des-entreprises-europeennes-n-est-pas-pour-tout-de-suite",
+    "feed_file": "TRIBU.xml"
+  },
+  {
+    "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+    "feed_file": "FEDPR.xml"
+  },
+  {
+    "title": "Services production up by 0.3% in both the euro area and the EU",
+    "url": "https://ec.europa.eu/eurostat/product?code=4-09112026-ap",
+    "feed_file": "EUSTA.xml"
+  }
+]

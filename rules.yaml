@@ -1,0 +1,190 @@
+dedup_threshold: 88
+critical:
+- décision de taux
+- rate decision
+- hike
+- cut
+- hausse des taux
+- baisse des taux
+- conférence de presse
+- minutes
+- dégradation
+- abaisse la note
+- downgrade
+- perspective négative
+- negative outlook
+- défaut
+- default
+- Chapter 11
+- procédure de sauvegarde
+- restructuration
+- distressed exchange
+- profit warning
+- adjudication
+- auction
+- spread
+- OAT
+- Bund
+- BTP
+- Treasury
+- inflation
+- CPI
+- PCE
+- payrolls
+- PMI
+- PIB
+- GDP
+categories:
+  BC:
+    weight: 12
+    terms:
+    - BCE
+    - ECB
+    - Fed
+    - FOMC
+    - BoE
+    - BoJ
+    - BNS
+    - central bank
+    - banque centrale
+    - monetary policy
+    - politique monétaire
+    - rate decision
+  TAUX:
+    weight: 10
+    terms:
+    - yield
+    - yields
+    - Treasury
+    - Treasuries
+    - OAT
+    - Bund
+    - BTP
+    - souverain
+    - sovereign
+    - taux
+    - gilts
+    - bond yields
+  CREDIT:
+    weight: 10
+    terms:
+    - investment grade
+    - crédit
+    - credit
+    - corporate bonds
+    - spread
+    - spreads
+    - obligataire
+    - obligations
+    - bond
+    - bonds
+    - dette privée
+    - private debt
+    - PIK
+    - covenant
+    - refinancing
+    - refinancement
+  HY:
+    weight: 12
+    terms:
+    - high yield
+    - high-yield
+    - leveraged finance
+    - leveraged loan
+    - junk bond
+    - défaut
+    - default
+    - Chapter 11
+    - restructuration
+    - restructuring
+    - distressed exchange
+    - bankruptcy
+    - faillite
+  PRIM:
+    weight: 12
+    terms:
+    - adjudication
+    - auction
+    - bond sale
+    - priced
+    - émission obligataire
+    - bond issuance
+    - new issue
+    - syndication
+  NOTES:
+    weight: 15
+    terms:
+    - downgrade
+    - upgrade
+    - negative outlook
+    - perspective négative
+    - abaisse la note
+    - dégradation
+    - Moody's
+    - Fitch
+    - S&P Global Ratings
+    - EthiFinance Ratings
+    - credit rating
+    - notation financière
+  MACRO:
+    weight: 10
+    terms:
+    - inflation
+    - CPI
+    - PCE
+    - payrolls
+    - PMI
+    - PIB
+    - GDP
+    - chômage
+    - unemployment
+    - employment
+    - retail sales
+  FR:
+    weight: 0
+    terms:
+    - France
+    - français
+    - française
+    - French
+    - OAT
+    - INSEE
+  EU:
+    weight: 0
+    terms:
+    - Europe
+    - eurozone
+    - zone euro
+    - ECB
+    - BCE
+    - Bund
+    - BTP
+    - European
+    - Germany
+    - Allemagne
+    - Italy
+    - Italie
+  US:
+    weight: 0
+    terms:
+    - États-Unis
+    - United States
+    - U.S.
+    - américain
+    - American
+    - Fed
+    - FOMC
+    - Treasury
+    - payrolls
+  REG:
+    weight: 5
+    terms:
+    - ESMA
+    - EBA
+    - AMF
+    - régulation
+    - regulation
+    - regulatory
+    - Basel
+    - Bâle
+    - Solvency

@@ -1,0 +1,570 @@
+- name: BCE — communiqués et discours
+  code: BCEPR
+  url: https://www.ecb.europa.eu/rss/press.html
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: BCE
+  evidence: https://www.ecb.europa.eu/home/html/rss.en.html
+- name: BCE — blog
+  code: BCEBL
+  url: https://www.ecb.europa.eu/rss/blog.html
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: BCE
+  evidence: https://www.ecb.europa.eu/home/html/rss.en.html
+- name: BCE — statistiques
+  code: BCEST
+  url: https://www.ecb.europa.eu/rss/statpress.html
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: false
+  publisher: BCE
+  evidence: https://www.ecb.europa.eu/home/html/rss.en.html
+- name: BCE — publications
+  code: BCEPU
+  url: https://www.ecb.europa.eu/rss/pub.html
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: BCE
+  evidence: https://www.ecb.europa.eu/home/html/rss.en.html
+- name: Fed — communiqués
+  code: FEDPR
+  url: https://www.federalreserve.gov/feeds/press_all.xml
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: Federal Reserve
+  evidence: https://www.federalreserve.gov/feeds/feeds.htm
+- name: Fed — politique monétaire
+  code: FEDMP
+  url: https://www.federalreserve.gov/feeds/press_monetary.xml
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: Federal Reserve
+  evidence: https://www.federalreserve.gov/feeds/feeds.htm
+- name: Fed — discours
+  code: FEDSP
+  url: https://www.federalreserve.gov/feeds/speeches.xml
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: Federal Reserve
+  evidence: https://www.federalreserve.gov/feeds/feeds.htm
+- name: New York Fed — Liberty Street Economics
+  code: NYFED
+  url: https://libertystreeteconomics.newyorkfed.org/feed/
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: New York Fed
+  evidence: https://libertystreeteconomics.newyorkfed.org/
+- name: Bank of England — news
+  code: BOENE
+  url: https://www.bankofengland.co.uk/rss/news
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: Bank of England
+  evidence: https://www.bankofengland.co.uk/rss
+- name: Bank of England — speeches
+  code: BOESP
+  url: https://www.bankofengland.co.uk/rss/speeches
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: Bank of England
+  evidence: https://www.bankofengland.co.uk/rss
+- name: BNS — news
+  code: BNSNE
+  url: https://www.snb.ch/public/rss/en/news
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: BNS
+  evidence: https://www.snb.ch/en/services-events/digital-services/rss-calendar-feeds
+- name: BNS — pressrel
+  code: BNSPR
+  url: https://www.snb.ch/public/rss/en/pressrel
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: false
+  publisher: BNS
+  evidence: https://www.snb.ch/en/services-events/digital-services/rss-calendar-feeds
+- name: BNS — speeches
+  code: BNSSP
+  url: https://www.snb.ch/public/rss/en/speeches
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: false
+  publisher: BNS
+  evidence: https://www.snb.ch/en/services-events/digital-services/rss-calendar-feeds
+- name: Bank of Japan
+  code: BOJPN
+  url: https://www.boj.or.jp/en/rss/whatsnew.xml
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: Bank of Japan
+  evidence: https://www.boj.or.jp/en/
+- name: BRI — communiqués
+  code: BRIPR
+  url: https://www.bis.org/doclist/all_pressrels.rss
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: BRI
+  evidence: https://www.bis.org/rss
+- name: BRI — discours
+  code: BRISP
+  url: https://www.bis.org/doclist/mgmtspeeches.rss
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: BRI
+  evidence: https://www.bis.org/rss
+- name: BRI — discours banques centrales
+  code: BRICB
+  url: https://www.bis.org/doclist/cbspeeches.rss
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: BRI
+  evidence: https://www.bis.org/rss
+- name: BRI — publications
+  code: BRIPU
+  url: https://www.bis.org/doclist/bis_fsi_publs.rss
+  category: BC
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: BRI
+  evidence: https://www.bis.org/rss
+- name: BLS — actualités
+  code: BLSNE
+  url: https://www.bls.gov/feed/bls_latest.rss
+  category: MACRO
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: BLS
+  evidence: https://www.bls.gov/feed/
+- name: BLS — CPI
+  code: BLSCP
+  url: https://www.bls.gov/feed/cpi.rss
+  category: MACRO
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: BLS
+  evidence: https://www.bls.gov/feed/
+- name: BLS — emploi
+  code: BLSEM
+  url: https://www.bls.gov/feed/empsit.rss
+  category: MACRO
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: BLS
+  evidence: https://www.bls.gov/feed/
+- name: BLS — PPI
+  code: BLSPP
+  url: https://www.bls.gov/feed/ppi.rss
+  category: MACRO
+  language: EN
+  type: primaire
+  paywall: false
+  active: false
+  publisher: BLS
+  evidence: https://www.bls.gov/feed/
+- name: BLS — JOLTS
+  code: BLSJO
+  url: https://www.bls.gov/feed/jolts.rss
+  category: MACRO
+  language: EN
+  type: primaire
+  paywall: false
+  active: false
+  publisher: BLS
+  evidence: https://www.bls.gov/feed/
+- name: Eurostat — communiqués
+  code: EUSTA
+  url: https://ec.europa.eu/eurostat/en/search?_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL&p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_mode=view&p_p_resource_id=atom&p_p_state=maximized
+  category: MACRO
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: Eurostat
+  evidence: https://ec.europa.eu/eurostat/en/web/rss/
+- name: INSEE — actualités
+  code: INSEE
+  url: https://www.insee.fr/fr/flux/2
+  category: MACRO
+  language: FR
+  type: primaire
+  paywall: false
+  active: true
+  publisher: INSEE
+  evidence: https://atlasflux.saynete.com/atlas_des_flux_rss_fra_administration.htm
+- name: Agence France Trésor
+  code: AFTRS
+  url: https://www.aft.gouv.fr/fr/rss.xml
+  category: TAUX
+  language: FR
+  type: primaire
+  paywall: false
+  active: true
+  publisher: Agence France Trésor
+  evidence: https://www.aft.gouv.fr/fr/sitemap
+- name: ESMA
+  code: ESMAR
+  url: https://www.esma.europa.eu/rss.xml
+  category: REG
+  language: EN
+  type: primaire
+  paywall: false
+  active: false
+  publisher: ESMA
+  evidence: https://feeder.co/discover/936bf2166c/esma-europa-eu-flux-rss
+- name: AMF — Toutes les actualités et publications
+  code: AMFAL
+  url: https://www.amf-france.org/fr/flux-rss/display/21
+  category: REG
+  language: FR
+  type: primaire
+  paywall: false
+  active: true
+  publisher: AMF
+  evidence: https://www.amf-france.org/fr/abonnements-flux-rss
+- name: AMF — Actualités
+  code: AMFAC
+  url: https://www.amf-france.org/fr/flux-rss/display/30
+  category: REG
+  language: FR
+  type: primaire
+  paywall: false
+  active: true
+  publisher: AMF
+  evidence: https://www.amf-france.org/fr/abonnements-flux-rss
+- name: AMF — Communiqués de presse
+  code: AMFPR
+  url: https://www.amf-france.org/fr/flux-rss/display/23
+  category: REG
+  language: FR
+  type: primaire
+  paywall: false
+  active: false
+  publisher: AMF
+  evidence: https://www.amf-france.org/fr/abonnements-flux-rss
+- name: AMF — Réglementation
+  code: AMFRG
+  url: https://www.amf-france.org/fr/flux-rss/display/31
+  category: REG
+  language: FR
+  type: primaire
+  paywall: false
+  active: false
+  publisher: AMF
+  evidence: https://www.amf-france.org/fr/abonnements-flux-rss
+- name: IMF — News
+  code: IMFNE
+  url: https://www.imf.org/en/News/rss?language=eng
+  category: MACRO
+  language: EN
+  type: primaire
+  paywall: false
+  active: false
+  publisher: IMF
+  evidence: https://github.com/chinedumsunday/fx-news-desk/blob/main/sources.json
+- name: Les Echos — économie
+  code: ECHSE
+  url: https://services.lesechos.fr/rss/les-echos-economie.xml
+  category: AUTRES
+  language: FR
+  type: presse
+  paywall: true
+  active: false
+  publisher: Les Echos
+  evidence: https://feeder.co/discover/0f45e1d5bf/lesechos-fr
+- name: Les Echos — finance et marchés
+  code: ECHSF
+  url: https://services.lesechos.fr/rss/les-echos-finance-marches.xml
+  category: AUTRES
+  language: FR
+  type: presse
+  paywall: true
+  active: false
+  publisher: Les Echos
+  evidence: https://feeder.co/discover/0f45e1d5bf/lesechos-fr
+- name: L’Agefi
+  code: AGEFI
+  url: https://www.agefi.fr/index.rss
+  category: AUTRES
+  language: FR
+  type: presse
+  paywall: true
+  active: true
+  publisher: L’Agefi
+  evidence: https://www.agefi.fr/
+- name: Le Monde — Économie
+  code: MONDE
+  url: https://www.lemonde.fr/economie/rss_full.xml
+  category: AUTRES
+  language: FR
+  type: presse
+  paywall: true
+  active: true
+  publisher: Le Monde
+  evidence: https://www.lemonde.fr/le-monde-et-vous/article/2025/07/14/les-flux-rss-du-monde-fr_5498778_3237.html
+- name: BFM Business — économie
+  code: BFMEC
+  url: https://www.bfmtv.com/rss/economie/
+  category: AUTRES
+  language: FR
+  type: presse
+  paywall: false
+  active: true
+  publisher: BFM Business
+  evidence: https://www.bfmtv.com/rss/
+- name: BFM Business — finances publiques
+  code: BFMFP
+  url: https://www.bfmtv.com/rss/economie/economie-social/finances-publiques/
+  category: AUTRES
+  language: FR
+  type: presse
+  paywall: false
+  active: true
+  publisher: BFM Business
+  evidence: https://www.bfmtv.com/rss/
+- name: BFM Business — banques et assurances
+  code: BFMBA
+  url: https://www.bfmtv.com/rss/economie/entreprises/assurance-banque/
+  category: AUTRES
+  language: FR
+  type: presse
+  paywall: false
+  active: true
+  publisher: BFM Business
+  evidence: https://www.bfmtv.com/rss/
+- name: Financial Times
+  code: FTNEW
+  url: https://www.ft.com/rss/home
+  category: AUTRES
+  language: EN
+  type: presse
+  paywall: true
+  active: true
+  publisher: Financial Times
+  evidence: https://www.wprssaggregator.com/news-rss-feeds/
+- name: Wall Street Journal — Markets
+  code: WSJMK
+  url: https://feeds.content.dowjones.io/public/rss/RSSMarketsMain
+  category: AUTRES
+  language: EN
+  type: presse
+  paywall: true
+  active: false
+  publisher: Wall Street Journal
+  evidence: https://www.wprssaggregator.com/news-rss-feeds/
+- name: MarketWatch
+  code: MWNEW
+  url: https://feeds.content.dowjones.io/public/rss/mw_topstories
+  category: AUTRES
+  language: EN
+  type: presse
+  paywall: true
+  active: false
+  publisher: MarketWatch
+  evidence: https://www.wprssaggregator.com/news-rss-feeds/
+- name: Bloomberg — Markets
+  code: BLMBG
+  url: https://feeds.bloomberg.com/markets/news.rss
+  category: AUTRES
+  language: EN
+  type: presse
+  paywall: true
+  active: true
+  publisher: Bloomberg
+  evidence: https://github.com/nbot-ai/awesome-rss-feeds
+- name: Google News — REUTR
+  code: REUTR
+  url: https://news.google.com/rss/search?q=site%3Areuters.com+%28bond+OR+yields+OR+ECB%29&hl=en-US&gl=US&ceid=US%3Aen
+  category: TAUX
+  language: EN
+  type: agrégé
+  paywall: true
+  active: false
+  publisher: Google News
+  evidence: URL de recherche construite selon le format demandé
+- name: Google News — BLMBN
+  code: BLMBN
+  url: https://news.google.com/rss/search?q=site%3Abloomberg.com+%28bonds+OR+credit+OR+inflation%29&hl=en-US&gl=US&ceid=US%3Aen
+  category: CREDIT
+  language: EN
+  type: agrégé
+  paywall: true
+  active: false
+  publisher: Google News
+  evidence: URL de recherche construite selon le format demandé
+- name: Google News — RATNG
+  code: RATNG
+  url: https://news.google.com/rss/search?q=%28site%3Afitchratings.com+OR+site%3Aspglobal.com+OR+site%3Amoodys.com%29+%28downgrade+OR+upgrade+OR+outlook%29&hl=en-US&gl=US&ceid=US%3Aen
+  category: NOTES
+  language: EN
+  type: agrégé
+  paywall: true
+  active: false
+  publisher: Google News
+  evidence: URL de recherche construite selon le format demandé
+- name: Google News — PRIMR
+  code: PRIMR
+  url: https://news.google.com/rss/search?q=%28site%3Areuters.com+OR+site%3Aft.com+OR+site%3Aagefi.fr%29+%28%22bond+sale%22+OR+%22bond+issuance%22+OR+%22%C3%A9mission+obligataire%22%29&hl=en-US&gl=US&ceid=US%3Aen
+  category: PRIM
+  language: EN
+  type: agrégé
+  paywall: true
+  active: false
+  publisher: Google News
+  evidence: URL de recherche construite selon le format demandé
+- name: Google News — HIGHY
+  code: HIGHY
+  url: https://news.google.com/rss/search?q=%28site%3Areuters.com+OR+site%3Aft.com+OR+site%3Abloomberg.com%29+%28%22high+yield%22+OR+%22leveraged+finance%22%29&hl=en-US&gl=US&ceid=US%3Aen
+  category: HY
+  language: EN
+  type: agrégé
+  paywall: true
+  active: false
+  publisher: Google News
+  evidence: URL de recherche construite selon le format demandé
+- name: Google News — DEFLT
+  code: DEFLT
+  url: https://news.google.com/rss/search?q=%28site%3Areuters.com+OR+site%3Aft.com+OR+site%3Abloomberg.com%29+%28default+OR+restructuring+OR+%22distressed+exchange%22%29&hl=en-US&gl=US&ceid=US%3Aen
+  category: HY
+  language: EN
+  type: agrégé
+  paywall: true
+  active: false
+  publisher: Google News
+  evidence: URL de recherche construite selon le format demandé
+- name: CNBC — Economy
+  code: CNBEC
+  url: https://www.cnbc.com/id/20910258/device/rss/rss.html
+  category: AUTRES
+  language: EN
+  type: presse
+  paywall: false
+  active: false
+  publisher: CNBC
+  evidence: https://feeder.co/knowledge-base/rss-content/cnbc-rss-feeds/
+- name: The Economist — Finance and Economics
+  code: ECONO
+  url: https://www.economist.com/finance-and-economics/rss.xml
+  category: AUTRES
+  language: EN
+  type: presse
+  paywall: true
+  active: false
+  publisher: The Economist
+  evidence: https://feeder.co/knowledge-base/rss-content/the-economist-rss-feeds/
+- name: Politico Europe
+  code: POLIT
+  url: https://www.politico.eu/feed/
+  category: AUTRES
+  language: EN
+  type: presse
+  paywall: false
+  active: false
+  publisher: Politico Europe
+  evidence: https://www.sharpe.ai/news/sources
+- name: US Treasury — press releases
+  code: USTRE
+  url: https://home.treasury.gov/news/press-releases?type=press_release&rss=1
+  category: TAUX
+  language: EN
+  type: primaire
+  paywall: false
+  active: false
+  publisher: US Treasury
+  evidence: https://github.com/chinedumsunday/fx-news-desk/blob/main/sources.json
+- name: European Banking Authority
+  code: EBANE
+  url: https://www.eba.europa.eu/news-press/news/rss.xml
+  category: REG
+  language: EN
+  type: primaire
+  paywall: false
+  active: true
+  publisher: European Banking Authority
+  evidence: https://feeder.co/discover/2236dba9cd/eba-europa-eu-news-press-news-rss-xml
+- name: La Tribune
+  code: TRIBU
+  url: https://www.latribune.fr/rss/homepage
+  category: AUTRES
+  language: FR
+  type: presse
+  paywall: false
+  active: true
+  publisher: La Tribune
+  evidence: https://arcadiagames.net/fr/discover/07db6bbc8e/latribune-fr
+- name: US TreasuryDirect — annonces
+  code: USTAN
+  url: https://www.treasurydirect.gov/TA_WS/securities/announced/rss
+  category: PRIM
+  language: EN
+  type: primaire
+  paywall: false
+  active: false
+  publisher: US Treasury
+  evidence: https://www.treasurydirect.gov/rss/
+- name: US TreasuryDirect — résultats
+  code: USTREX
+  url: https://www.treasurydirect.gov/TA_WS/securities/auctioned/rss
+  category: PRIM
+  language: EN
+  type: primaire
+  paywall: false
+  active: false
+  publisher: US Treasury
+  evidence: https://www.treasurydirect.gov/rss/
