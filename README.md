@@ -1,13 +1,14 @@
 # Fil Obligataire — collecte publique
 
-Collecte des RSS déclarés dans `sources.yaml`, indépendante des appareils du lecteur.
+Collecte des RSS déclarés dans `sources.yaml`, même lorsque le site est fermé, sans appel à ChatGPT.
 
-- Programmation toutes les 5 minutes entre 6 h et 22 h en semaine, heure de Paris (été/hiver), à partir de H:02 ; toutes les heures autrement.
-- GitHub peut retarder ou omettre un passage. Ce n’est pas un service temps réel garanti. Un dépôt inactif pendant 60 jours peut voir ses tâches suspendues ; les mises à jour réelles de données entretiennent l’activité du dépôt.
-- La branche `data` conserve le dernier `snapshot.json` et son historique Git. Le contenu courant est limité aux sept derniers jours. L’historique Git peut contenir des publications plus anciennes.
-- Aucun secret, aucun portefeuille, aucune watchlist. Les règles privées sont appliquées par le site destinataire.
-- Titre, extrait RSS court et lien seulement. Pas de scraping d’articles ni de contournement de robots.txt.
-- Une source en panne ne bloque pas les autres ; les données précédentes sont conservées lors d’un échec global.
-- Tests avant chaque collecte. `Actions` → `Collecter les flux publics` → `Run workflow` pour un lancement manuel.
+- Toutes les 10 minutes entre 6 h et 22 h en semaine (Europe/Paris, été/hiver), aux minutes 03, 13, 23, 33, 43, 53. Toutes les heures sinon, à la minute 02.
+- GitHub peut retarder ou omettre un passage. Les planifications peuvent être suspendues après 60 jours d’inactivité : vérifier Actions.
+- La branche `data` conserve `snapshot.json` avec sept jours glissants. L’historique Git peut conserver des publications plus anciennes.
+- Le site privé importe les résultats à son ouverture et toutes les deux minutes pendant son utilisation. Son bouton manuel conserve sa collecte directe.
+- Aucun secret, portefeuille ou watchlist dans ce dépôt. Les règles privées sont appliquées sur le site.
+- Titres, courts extraits RSS et liens uniquement ; respect de robots.txt. Les données précédentes restent disponibles en cas d’échec global.
+- Tests avant chaque collecte. Actions → Collecter les flux publics → Run workflow pour lancer une collecte. Workflow options → Disable workflow pour suspendre la planification.
+- Pour ajouter un flux, conserver le même code et la même URL dans sources.yaml et dans CONFIG sur le site.
 
-Les runners standard Linux des dépôts publics sont gratuits. Aucun service payant, aucune clé API n’est nécessaire.
+Les runners standard Linux des dépôts publics sont gratuits. Aucune clé API payante nécessaire. La tâche ChatGPT peut rester en pause.
